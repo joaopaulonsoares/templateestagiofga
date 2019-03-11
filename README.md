@@ -1,5 +1,5 @@
-#Template Relatório de Estágio Obrigatório FGA-UnB
-
+# Template Relatório de Estágio Obrigatório FGA-UnB
+ 
 Template para Relatório de estágio obrigatório adaptado do template de Trabalhos de Conclusão de Cursos (TCC) na Faculdade do Gama (FGA) em Latex. O template de TCC foi
 desenvolvido e adaptado pelo professor Edson Alves <edsomjr@gmail.com> e licenciado em Creative Commons Atribuição 3.0: http://creativecommons.org/licenses/by/3.0/ .
 O template para Relatório de estágio obrigatório  FGA-UnB foi adaptado por João Paulo Nunes Soares.
