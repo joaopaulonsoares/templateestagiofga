@@ -14,7 +14,7 @@ Caso deseje editar este documento no Overleaf, siga os seguintes passos:
 
 3. Selecione a pasta que você realizou o download no passo 1.
 
-4. Após o projeto carregar, clique em **Menu**(localizado no canto superior esquerdo.
+4. Após o projeto carregar, clique em **Menu**(localizado no canto superior esquerdo).
 
 5. Na seção Configurações, selecione o arquivo **main.tex** como Documento Principal.
 
