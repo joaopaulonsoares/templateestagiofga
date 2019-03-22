@@ -4,8 +4,24 @@ Template para Relatório de estágio obrigatório adaptado do template de Trabal
 desenvolvido e adaptado pelo professor Edson Alves <edsomjr@gmail.com> e licenciado em Creative Commons Atribuição 3.0: http://creativecommons.org/licenses/by/3.0/ .
 O template para Relatório de estágio obrigatório  FGA-UnB foi adaptado por João Paulo Nunes Soares.
 
+## Utilizando o template no Overleaf
 
-## Instalando o abnTeX2
+Caso deseje editar este documento no Overleaf, siga os seguintes passos:
+
+1. Realize o download do repositório no formato **.zip**.
+
+2. No Overleaf, na página "Seus Projetos" clique em *Novo Projeto*(localizado no canto superior esquerdo) e selecione a opção *Carregar Projeto*.
+
+3. Selecione a pasta que você realizou o download no passo 1.
+
+4. Após o projeto carregar, clique em **Menu**(localizado no canto superior esquerdo.
+
+5. Na seção Configurações, selecione o arquivo **main.tex** como Documento Principal.
+
+6. Compile o projeto.
+
+
+## Instalando o abnTeX2 para compilar na máquina
 
 ### Ubuntu 12.10 ou superior
 
