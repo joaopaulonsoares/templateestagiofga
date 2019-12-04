@@ -4,7 +4,7 @@ Template para Relatório de estágio obrigatório adaptado do template de Trabal
 desenvolvido e adaptado pelo professor Edson Alves <edsomjr@gmail.com> e licenciado em Creative Commons Atribuição 3.0: http://creativecommons.org/licenses/by/3.0/ .
 O template para Relatório de estágio obrigatório  FGA-UnB foi adaptado por João Paulo Nunes Soares.
 
-Em caso de dúvidas ou problemas com o repositório, me contate poir meio de um dos canais a seguir ou crie uma issue no repositório.
+Em caso de dúvidas ou problemas com o template, me contate por meio de um dos canais a seguir ou crie uma issue no repositório.
  * Email: paulonsoares@yahoo.com.br
  * Telegram: @jpnsoares
 
