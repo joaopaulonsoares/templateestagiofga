@@ -12,7 +12,7 @@ Em caso de dúvidas ou problemas com o template, me contate por meio de um dos c
 
 Caso deseje editar este documento no Overleaf, siga os seguintes passos:
 
-1. Realize o download do repositório no formato **.zip**.
+1. Realize o download do repositório no formato **.zip**. (Clone -> Download ZIP)
 
 2. No Overleaf, na página "Seus Projetos" clique em *Novo Projeto*(localizado no canto superior esquerdo) e selecione a opção *Carregar Projeto*.
 
