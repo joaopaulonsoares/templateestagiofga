@@ -117,5 +117,128 @@ Para compilar o texto através do Makefile digite:
 
 	$ make clean
 	$ make
+	
+	
+## English
+
+# Template Compulsory Internship Report FGA-UnB
+ 
+Template for Report of mandatory internship adapted from the Template for Course Completion Works (TCC) at Faculdade do Gama (FGA) in Latex. The CBT template was
+developed and adapted by professor Edson Alves <edsomjr@gmail.com> and licensed in Creative Commons Attribution 3.0: http://creativecommons.org/licenses/by/3.0/.
+The template for the FGA-UnB Mandatory Internship Report was adapted by João Paulo Nunes Soares.
+
+In case of doubts or problems with the template, contact me through one of the channels below or create an issue in the repository.
+ * Email: paulonsoares@yahoo.com.br
+ * Telegram: @jpnsoares
+
+## Using the template in Overleaf
+
+If you want to edit this document in Overleaf, follow these steps:
+
+1. Download the repository in **. Zip ** format. (Clone -> Download ZIP)
+
+2. In Overleaf, on the "Your Projects" page click on * New Project * (located in the upper left corner) and select the option * Load Project *.
+
+3. Select the folder you downloaded in step 1.
+
+4. After the project loads, click ** Menu ** (located in the upper left corner).
+
+5. In the Settings section, select the ** main.tex ** file as the Main Document.
+
+6. Compile the project.
+
+
+## Installing abnTeX2 to compile on the machine
+
+### Ubuntu 12.10 or higher
+
+Since the recommended version of Tex Live is 2012 or higher, the process of
+installation via apt-get works only from version 7.0 of Debian (also
+known as Wheezy) and its derivatives, such as Ubuntu 12.10 (also known as
+known as Quantal Quetzal), Linux Mint 14, among others.
+
+To install abnTeX2 (and its dependencies, like TeXLive itself)
+on a Debian or derived distribution, use the installation via apt-get (or
+other package manager you prefer):
+
+Add the following line to the /etc/apt/sources.list file:
+
+deb http://distrib.abntex2.googlecode.com/hg/debian/ testing main
+
+Optionally, add the line below if you want to download the fonts:
+
+deb-src http://distrib.abntex2.googlecode.com/hg/debian/ testing main
+
+Add the public key to the apt keyring:
+
+$ wget -O - http://distrib.abntex2.googlecode.com/hg/debian/89C55467.asc|sudo apt-key add -
+
+Install abntex2:
+
+$ sudo apt-get update && sudo apt-get install abntex2
+
+To update an existing installation, made from the repository:
+
+$ sudo apt-get update && sudo apt-get upgrade
+
+After the installation process, you can read the manuals and test the examples
+which will be available in the / usr / share / doc / abntex2 / pdf and
+/ usr / share / doc / abntex2 / latex respectively.
+
+Source: https://code.google.com/p/abntex2/wiki/InstalacaoLinux
+
+### Ubuntu 12.04 or less
+
+As stated in the [installation of abnTeX2 on GNU / Linux distributions] page (https://code.google.com/p/abntex2/wiki/InstalacaoLinux#Instala%C3%A7%C3%A3o_autom%C3%A1tica_do_TeX_Live_e_do_abnTeX2_ (recommended)
+, installation via apt-get works only with Ubuntu version 12.10,
+because it is there that the 2012 version of Tex Live is available, which is the recommended one
+for use with abnTeX2.
+
+To install abnTeX2 on Ubuntu 12.04 it is necessary, at least, to update the
+Tex Live. One of the possible ways is to use the existing packages in the
+[texlive-backports] repository (https://launchpad.net/~texlive-backports/+archive/ppa)
+, according to the guidelines below.
+
+Add the texlive-backports repository by typing the following in a terminal:
+
+$ sudo add-apt-repository ppa: texlive-backports / ppa
+
+If the texlive package for Ubuntu 12.04 is already installed type:
+
+$ sudo apt-get update && sudo apt-get upgrade
+
+If the Ubuntu 12.04 texlive package is not yet installed, type:
+
+$ sudo apt-get update && sudo apt-get install texlive
+
+Another way to update Tex Live is manually, as described on the page
+[installation of abnTeX2 on GNU / Linux distributions] (https://code.google.com/p/abntex2/wiki/InstalacaoLinux#Instala%C3%A7%C3%A3o_manual_a_partir_do_instalador_do_TUG)
+
+Source: https://code.google.com/p/abntex2/wiki/FAQ#Por_que_eu_não_consigo_instalar_o_abnTeX2_no_Ubuntu_12.04_via_a
+
+### Other linux distributions
+
+Information for installing abnTeX2 on other Linux distributions:
+
+https://code.google.com/p/abntex2/wiki/InstalacaoLinux
+
+### Windows
+
+Information for installing abnTeX2 on Windows:
+
+https://code.google.com/p/abntex2/wiki/InstalacaoWindows
+
+### Mac OS
+
+Information for installing abnTeX2 on Mac OS X:
+
+https://code.google.com/p/abntex2/wiki/InstalacaoMac
+
+## Compiling
+
+To compile the text through the Makefile type:
+
+$ make clean
+$ make
 
 
