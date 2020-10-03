@@ -241,4 +241,126 @@ To compile the text through the Makefile type:
 $ make clean
 $ make
 
+# Espanhol
+
+# Plantilla Informe de prácticas obligatorias FGA-UnB
+ 
+Plantilla de Informe de prácticas obligatorias adaptada de la Plantilla de trabajos de finalización de curso (TCC) de la Faculdade do Gama (FGA) en Látex. La plantilla CBT fue
+desarrollado y adaptado por el profesor Edson Alves <edsomjr@gmail.com> y licenciado en Creative Commons Attribution 3.0: http://creativecommons.org/licenses/by/3.0/.
+La plantilla para el Informe de prácticas obligatorias FGA-UnB fue adaptada por João Paulo Nunes Soares.
+
+En caso de dudas o problemas con la plantilla, contácteme a través de uno de los canales a continuación o cree un problema en el repositorio.
+ * Correo electrónico: paulonsoares@yahoo.com.br
+ * Telegrama: @jpnsoares
+
+## Usando la plantilla al dorso
+
+Si desea editar este documento al dorso, siga estos pasos:
+
+1. Descargue el repositorio en formato **. Zip **. (Clonar -> Descargar ZIP)
+
+2. En el dorso, en la página "Sus proyectos", haga clic en * Nuevo proyecto * (ubicado en la esquina superior izquierda) y seleccione la opción * Cargar proyecto *.
+
+3. Seleccione la carpeta que descargó en el paso 1.
+
+4. Una vez que se cargue el proyecto, haga clic en ** Menú ** (ubicado en la esquina superior izquierda).
+
+5. En la sección Configuración, seleccione el archivo ** main.tex ** como Documento principal.
+
+6. Compile el proyecto.
+
+
+## Instalando abnTeX2 para compilar en la máquina
+
+### Ubuntu 12.10 o superior
+
+Dado que la versión recomendada de Tex Live es 2012 o superior, el proceso de
+La instalación a través de apt-get funciona solo desde la versión 7.0 de Debian (también
+conocido como Wheezy) y sus derivados, como Ubuntu 12.10 (también conocido como
+conocido como Quantal Quetzal), Linux Mint 14, entre otros.
+
+Para instalar abnTeX2 (y sus dependencias, como el propio TeXLive)
+en una distribución Debian o derivada, use la instalación a través de apt-get (o
+otro administrador de paquetes que prefiera):
+
+Agregue la siguiente línea al archivo /etc/apt/sources.list:
+
+deb http://distrib.abntex2.googlecode.com/hg/debian/ testing main
+
+Opcionalmente, agregue la línea a continuación si desea descargar las fuentes:
+
+deb-src http://distrib.abntex2.googlecode.com/hg/debian/ testing main
+
+Agregue la clave pública al llavero de apt:
+
+$ wget -O - http://distrib.abntex2.googlecode.com/hg/debian/89C55467.asc|sudo apt-key add -
+
+Instalar abntex2:
+
+$ sudo apt-get update && sudo apt-get install abntex2
+
+Para actualizar una instalación existente, realizada desde el repositorio:
+
+$ sudo apt-get update && sudo apt-get upgrade
+
+Después del proceso de instalación, puede leer los manuales y probar los ejemplos
+que estará disponible en / usr / share / doc / abntex2 / pdf y
+/ usr / share / doc / abntex2 / latex respectivamente.
+
+Fuente: https://code.google.com/p/abntex2/wiki/InstalacaoLinux
+
+### Ubuntu 12.04 o menos
+
+Como se indica en la página [instalación de abnTeX2 en distribuciones GNU / Linux] (https://code.google.com/p/abntex2/wiki/InstalacaoLinux#Instala%C3%A7%C3%A3o_autom%C3%A1tica_do_TeX_Live_e_do_abnTeX2_ (recomendado)
+, la instalación a través de apt-get funciona solo con la versión 12.10 de Ubuntu,
+porque es allí donde está disponible la versión 2012 de Tex Live, que es la recomendada
+para usar con abnTeX2.
+
+Para instalar abnTeX2 en Ubuntu 12.04 es necesario, al menos, actualizar el
+Tex Live. Una de las posibles formas es utilizar los paquetes existentes en
+repositorio [texlive-backports] (https://launchpad.net/~texlive-backports/+archive/ppa)
+, de acuerdo con las siguientes pautas.
+
+Agregue el repositorio texlive-backports escribiendo lo siguiente en una terminal:
+
+$ sudo add-apt-repository ppa: texlive-backports / ppa
+
+Si el paquete texlive para Ubuntu 12.04 ya está instalado, escriba:
+
+$ sudo apt-get update && sudo apt-get upgrade
+
+Si el paquete texlive de Ubuntu 12.04 aún no está instalado, escriba:
+
+$ sudo apt-get update && sudo apt-get install texlive
+
+Otra forma de actualizar Tex Live es manualmente, como se describe en la página
+[instalación de abnTeX2 en distribuciones GNU / Linux] (https://code.google.com/p/abntex2/wiki/InstalacaoLinux#Instala%C3%A7%C3%A3o_manual_a_partir_do_instalador_do_TUG)
+
+Fuente: https://code.google.com/p/abntex2/wiki/FAQ#Por_que_eu_não_consigo_instalar_o_abnTeX2_no_Ubuntu_12.04_via_a
+
+### Otras distribuciones de Linux
+
+Información para instalar abnTeX2 en otras distribuciones de Linux:
+
+https://code.google.com/p/abntex2/wiki/InstalacaoLinux
+
+### Windows
+
+Información para instalar abnTeX2 en Windows:
+
+https://code.google.com/p/abntex2/wiki/InstalacaoWindows
+
+### Mac OS
+
+Información para instalar abnTeX2 en Mac OS X:
+
+https://code.google.com/p/abntex2/wiki/InstalacaoMac
+
+## Compilación
+
+Para compilar el texto a través del tipo Makefile:
+
+$ hacer limpio
+$ hacer
+
 
