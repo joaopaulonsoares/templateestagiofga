@@ -7,6 +7,8 @@ O template para Relatório de estágio obrigatório  FGA-UnB foi adaptado por Jo
 Em caso de dúvidas ou problemas com o template, me contate por meio de um dos canais a seguir ou crie uma issue no repositório.
  * Email: paulonsoares@yahoo.com.br
  * Telegram: @jpnsoares
+ 
+ Caso veja alguma funcionalidade não presente, um bug no template ou algo que possa ser melhorado faça um pull request e colabore com outras pessoas. Contribuições são bem aceitas, abra um pull request com a mudança que ache interessante! Ela será analisada o mais breve possível :D
 
 ## Utilizando o template no Overleaf
 
