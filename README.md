@@ -24,6 +24,8 @@ Caso deseje editar este documento no Overleaf, siga os seguintes passos:
 
 6. Compile o projeto.
 
+*Existe um problema reportado na utilização do overleaf no navegador Safari, onde o documento apresenta erros ao compilar mesmo após alterar o documento principal. Recomenda-se utilizar o overleaf nos navegadores chrome ou firefox*
+
 
 ## Instalando o abnTeX2 para compilar na máquina
 
